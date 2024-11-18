@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AFA7FE542CEB2EB40009A495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA7FE322CEB2EB10009A495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA7FE392CEB2EB10009A495;
+			remoteInfo = CarlosCurseSoundBoard;
+		};
+		AFA7FE5E2CEB2EB40009A495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA7FE322CEB2EB10009A495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA7FE392CEB2EB10009A495;
+			remoteInfo = CarlosCurseSoundBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFA7FE3A2CEB2EB10009A495 /* CarlosCurseSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarlosCurseSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA7FE532CEB2EB40009A495 /* CarlosCurseSoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlosCurseSoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA7FE5D2CEB2EB40009A495 /* CarlosCurseSoundBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlosCurseSoundBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AFA7FE652CEB2EB40009A495 /* Exceptions for "CarlosCurseSoundBoard" folder in "CarlosCurseSoundBoard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AFA7FE392CEB2EB10009A495 /* CarlosCurseSoundBoard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AFA7FE3C2CEB2EB10009A495 /* CarlosCurseSoundBoard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AFA7FE652CEB2EB40009A495 /* Exceptions for "CarlosCurseSoundBoard" folder in "CarlosCurseSoundBoard" target */,
+			);
+			path = CarlosCurseSoundBoard;
+			sourceTree = "<group>";
+		};
+		AFA7FE562CEB2EB40009A495 /* CarlosCurseSoundBoardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarlosCurseSoundBoardTests;
+			sourceTree = "<group>";
+		};
+		AFA7FE602CEB2EB40009A495 /* CarlosCurseSoundBoardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarlosCurseSoundBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFA7FE372CEB2EB10009A495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE502CEB2EB40009A495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE5A2CEB2EB40009A495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFA7FE312CEB2EB10009A495 = {
+			isa = PBXGroup;
+			children = (
+				AFA7FE3C2CEB2EB10009A495 /* CarlosCurseSoundBoard */,
+				AFA7FE562CEB2EB40009A495 /* CarlosCurseSoundBoardTests */,
+				AFA7FE602CEB2EB40009A495 /* CarlosCurseSoundBoardUITests */,
+				AFA7FE3B2CEB2EB10009A495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA7FE3B2CEB2EB10009A495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA7FE3A2CEB2EB10009A495 /* CarlosCurseSoundBoard.app */,
+				AFA7FE532CEB2EB40009A495 /* CarlosCurseSoundBoardTests.xctest */,
+				AFA7FE5D2CEB2EB40009A495 /* CarlosCurseSoundBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFA7FE392CEB2EB10009A495 /* CarlosCurseSoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA7FE662CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoard" */;
+			buildPhases = (
+				AFA7FE362CEB2EB10009A495 /* Sources */,
+				AFA7FE372CEB2EB10009A495 /* Frameworks */,
+				AFA7FE382CEB2EB10009A495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AFA7FE3C2CEB2EB10009A495 /* CarlosCurseSoundBoard */,
+			);
+			name = CarlosCurseSoundBoard;
+			packageProductDependencies = (
+			);
+			productName = CarlosCurseSoundBoard;
+			productReference = AFA7FE3A2CEB2EB10009A495 /* CarlosCurseSoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFA7FE522CEB2EB40009A495 /* CarlosCurseSoundBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA7FE6B2CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoardTests" */;
+			buildPhases = (
+				AFA7FE4F2CEB2EB40009A495 /* Sources */,
+				AFA7FE502CEB2EB40009A495 /* Frameworks */,
+				AFA7FE512CEB2EB40009A495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA7FE552CEB2EB40009A495 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AFA7FE562CEB2EB40009A495 /* CarlosCurseSoundBoardTests */,
+			);
+			name = CarlosCurseSoundBoardTests;
+			packageProductDependencies = (
+			);
+			productName = CarlosCurseSoundBoardTests;
+			productReference = AFA7FE532CEB2EB40009A495 /* CarlosCurseSoundBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFA7FE5C2CEB2EB40009A495 /* CarlosCurseSoundBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA7FE6E2CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoardUITests" */;
+			buildPhases = (
+				AFA7FE592CEB2EB40009A495 /* Sources */,
+				AFA7FE5A2CEB2EB40009A495 /* Frameworks */,
+				AFA7FE5B2CEB2EB40009A495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA7FE5F2CEB2EB40009A495 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AFA7FE602CEB2EB40009A495 /* CarlosCurseSoundBoardUITests */,
+			);
+			name = CarlosCurseSoundBoardUITests;
+			packageProductDependencies = (
+			);
+			productName = CarlosCurseSoundBoardUITests;
+			productReference = AFA7FE5D2CEB2EB40009A495 /* CarlosCurseSoundBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA7FE322CEB2EB10009A495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AFA7FE392CEB2EB10009A495 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AFA7FE522CEB2EB40009A495 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AFA7FE392CEB2EB10009A495;
+					};
+					AFA7FE5C2CEB2EB40009A495 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AFA7FE392CEB2EB10009A495;
+					};
+				};
+			};
+			buildConfigurationList = AFA7FE352CEB2EB10009A495 /* Build configuration list for PBXProject "CarlosCurseSoundBoard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFA7FE312CEB2EB10009A495;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AFA7FE3B2CEB2EB10009A495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA7FE392CEB2EB10009A495 /* CarlosCurseSoundBoard */,
+				AFA7FE522CEB2EB40009A495 /* CarlosCurseSoundBoardTests */,
+				AFA7FE5C2CEB2EB40009A495 /* CarlosCurseSoundBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFA7FE382CEB2EB10009A495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE512CEB2EB40009A495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE5B2CEB2EB40009A495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFA7FE362CEB2EB10009A495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE4F2CEB2EB40009A495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA7FE592CEB2EB40009A495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA7FE552CEB2EB40009A495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA7FE392CEB2EB10009A495 /* CarlosCurseSoundBoard */;
+			targetProxy = AFA7FE542CEB2EB40009A495 /* PBXContainerItemProxy */;
+		};
+		AFA7FE5F2CEB2EB40009A495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA7FE392CEB2EB10009A495 /* CarlosCurseSoundBoard */;
+			targetProxy = AFA7FE5E2CEB2EB40009A495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFA7FE672CEB2EB40009A495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarlosCurseSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFA7FE682CEB2EB40009A495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarlosCurseSoundBoard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFA7FE692CEB2EB40009A495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFA7FE6A2CEB2EB40009A495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFA7FE6C2CEB2EB40009A495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarlosCurseSoundBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarlosCurseSoundBoard";
+			};
+			name = Debug;
+		};
+		AFA7FE6D2CEB2EB40009A495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarlosCurseSoundBoard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarlosCurseSoundBoard";
+			};
+			name = Release;
+		};
+		AFA7FE6F2CEB2EB40009A495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarlosCurseSoundBoard;
+			};
+			name = Debug;
+		};
+		AFA7FE702CEB2EB40009A495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY4DBLJX5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tecsup.CarlosCurseSoundBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarlosCurseSoundBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA7FE352CEB2EB10009A495 /* Build configuration list for PBXProject "CarlosCurseSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA7FE692CEB2EB40009A495 /* Debug */,
+				AFA7FE6A2CEB2EB40009A495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA7FE662CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA7FE672CEB2EB40009A495 /* Debug */,
+				AFA7FE682CEB2EB40009A495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA7FE6B2CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA7FE6C2CEB2EB40009A495 /* Debug */,
+				AFA7FE6D2CEB2EB40009A495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA7FE6E2CEB2EB40009A495 /* Build configuration list for PBXNativeTarget "CarlosCurseSoundBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA7FE6F2CEB2EB40009A495 /* Debug */,
+				AFA7FE702CEB2EB40009A495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFA7FE322CEB2EB10009A495 /* Project object */;
+}
